@@ -41,14 +41,14 @@ const PetForm = ({submitProp,initName,initType,initDesc,initTricks,initLikes,err
                     {errors.petType && <p className='error'>{errors.petType.message}</p>}
                     <p>
                         <label>
-                            Description: <br/>
+                            Pet Description: <br/>
                             <input type="text" value={description} onChange={e => setDescription(e.target.value)} />
                         </label>
                     </p>
                     {errors.description && <p className='error'>{errors.description.message}</p>}
                 </div>
                 <div className='flex-col-evenly-start'>
-                    <h6>Skills (Optional)</h6>
+                    <h6>Skills (Optional):</h6>
                     <p>
                         <label>
                             Skill 1: <br/>

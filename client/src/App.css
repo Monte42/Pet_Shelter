@@ -101,4 +101,32 @@ form * {
   .collapse{
     margin: 0;
   }
+  .flex-gap-base{
+    display: block;
+  }
+  .flex-between-center h2{
+    font-size: 1.4em;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  #like-btn{
+    width: 90%;
+    margin-left: 0;
+  }
+  #like-btn *{
+    font-size: 6vw;
+  }
+  .card-header, .btn-danger{
+    font-size: 3.9vw;
+  }
+  .flex-between-center{
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .flex-gap-base * {
+    font-size: 6vw;
+  }
 }
