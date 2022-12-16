@@ -1,0 +1,8 @@
+{
+  "short_name": "MERN Exam",
+  "name": "First go at the exam,... black belt???",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
